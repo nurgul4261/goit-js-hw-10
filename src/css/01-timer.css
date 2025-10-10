@@ -1,0 +1,60 @@
+
+.timer {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.value {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    color: #2E2F42;
+}
+
+
+.label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2E2F42;
+}
+
+input {
+    width: 272px;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+button {
+    width: 75px;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 20px;
+    background-color: #4E75FF;
+    font-size: 16px;
+    border: none;
+    gap: 10px;
+    color: white;
+}
+
+button:disabled {
+    background-color: #CFCFCF;
+    cursor: not-allowed;
+}
+
+button:hover {
+    background-color: #6C8CFF;
+    cursor: pointer;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
