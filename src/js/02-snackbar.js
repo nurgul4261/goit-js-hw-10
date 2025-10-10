@@ -13,7 +13,7 @@ form.addEventListener("submit", e => {
     .then(delay => {
       iziToast.success({
         message: `✅ Fulfilled promise in ${delay}ms`,
-        position: "topRight",
+        position: "center",
       });
     })
     .catch(delay => {
