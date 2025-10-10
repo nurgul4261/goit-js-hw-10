@@ -19,8 +19,7 @@ form.addEventListener("submit", e => {
     .catch(delay => {
       iziToast.error({
         message: `❌ Rejected promise in ${delay}ms`,
-        position: "topRight",
-      });
+        position: "center"      });
     });
     form.reset();
 });
